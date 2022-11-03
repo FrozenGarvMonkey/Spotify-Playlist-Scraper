@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyPlaylistScraper", "SpotifyPlaylistScraper\SpotifyPlaylistScraper.csproj", "{C2F6AAF1-7B12-49B5-AFD4-A04166ED0A1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyPlaylistScraper", "SpotifyPlaylistScraper\SpotifyPlaylistScraper.csproj", "{988494E0-0D6E-43D8-BC95-4473BF1E7510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2F6AAF1-7B12-49B5-AFD4-A04166ED0A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2F6AAF1-7B12-49B5-AFD4-A04166ED0A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2F6AAF1-7B12-49B5-AFD4-A04166ED0A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2F6AAF1-7B12-49B5-AFD4-A04166ED0A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988494E0-0D6E-43D8-BC95-4473BF1E7510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988494E0-0D6E-43D8-BC95-4473BF1E7510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988494E0-0D6E-43D8-BC95-4473BF1E7510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988494E0-0D6E-43D8-BC95-4473BF1E7510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
