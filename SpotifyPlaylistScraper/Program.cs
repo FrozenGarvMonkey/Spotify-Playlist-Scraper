@@ -1,9 +1,18 @@
+using SpotifyPlaylistScraper.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddHttpClient<ISpotifyServiceClass, SpotifyServiceClass>(c => {
+    c.BaseAddress = new Uri("https://accounts.spotify.com/api/");
+});
+
 builder.Services.AddControllersWithViews();
 
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment()) {

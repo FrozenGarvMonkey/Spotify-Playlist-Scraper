@@ -6,7 +6,7 @@ Made this to screw around with the Spotify API
 
 - [x] Set-up .NET project  
 - [ ] Set-up Backend
-    - [ ] Connect Spotify API
+    - [x] Connect Spotify API
     - [ ] Connect Local SQL Database 
 - [ ] Set-up Front-end
     - [ ] Home Page

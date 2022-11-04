@@ -1,16 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SpotifyPlaylistScraper.Models;
+using SpotifyPlaylistScraper.Services;
 using System.Diagnostics;
 
 namespace SpotifyPlaylistScraper.Controllers {
     public class HomeController : Controller {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ISpotifyServiceClass _spotifyService;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(ILogger<HomeController> logger) {
-            _logger = logger;
+        public HomeController(ISpotifyServiceClass spotifyService, IConfiguration configuration) {
+            _spotifyService = spotifyService;
+            _configuration = configuration;
         }
 
-        public IActionResult Index() {
+        public async Task<IActionResult> Index() {
+            try {
+                var token = await _spotifyService.GetToken(_configuration["Spotify:ClientID"], _configuration["Spotify:ClientSecret"]);
+
+            }catch (Exception ex) {
+                Debug.Write(ex);
+            }
+
             return View();
         }
 
